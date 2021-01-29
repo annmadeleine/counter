@@ -1,0 +1,39 @@
+@import '../../styles/variables';
+
+.menu {
+  flex: 0 0 100%;
+  ul {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    li {
+      height: 50%;
+    }
+  }
+
+  .counter {
+    background-color: $blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+
+    &:hover {
+      background-color: $darkBlue;
+    }
+  }
+
+  .showcounter {
+    background-color: $orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+
+    &:hover {
+      background-color: $darkOrange;
+    }
+  }
+}
